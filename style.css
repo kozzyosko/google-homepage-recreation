@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: inline-block;
+    color: #000;
+    opacity: 0.75;
+    padding-left: 15px;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    display: block;
+    padding-top: 109px;
+}
+
+.navbar {
+    position: relative;
+    font-size: 13px;
+}
+
+.searchbar {
+    background: #fff;
+    display: block;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    height: 40px;
+    width: 600px;
+    min-width: 410px;
+    margin-top: 24px;
+}
+
+.sbar {
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    height: 40px;
+    width: 540px;
+    min-width: 350px;
+}
+
+#footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
