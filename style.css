@@ -2,28 +2,18 @@ body {
     font-family: Arial, sans-serif;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
 a {
     text-decoration: none;
 }
 
-li {
-    float: left;
-}
-
-li a {
+a {
     display: inline-block;
     color: #000;
     opacity: 0.75;
     padding-left: 15px;
 }
 
-li a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -33,19 +23,42 @@ li a:hover {
 }
 
 .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
     position: relative;
     font-size: 13px;
 }
 
+#nav2 {
+    margin-right: 20px;
+}
+
+#signin {
+    background-color: #4484f3;
+    color: #fff;
+    border: none;
+    padding: 5px 10px 5px 10px;
+    margin-left: 15px;
+}
+
+#signin:active {
+    background-color: #356cca;
+}
+
 .searchbar {
     background: #fff;
-    display: block;
+    display: flex;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
     height: 40px;
     width: 600px;
     min-width: 410px;
     margin-top: 24px;
+}
+
+.searchbar:hover {
+    box-shadow: 0 0 2px #5F6368;
 }
 
 .sbar {
@@ -57,9 +70,49 @@ li a:hover {
     min-width: 350px;
 }
 
+.sb {
+    border-radius: 4px;
+    border: solid 1px;
+    border-color: white;
+    background-color: #f2f2f2;
+    padding: 10px 20px;
+    margin: 30px 5px 30px 5px;
+    color: #5F6368;
+}
+
+.sb:hover {
+    box-shadow: 0 0 2px #5F6368;
+}
+
 #footer {
-    display: block;
+    box-sizing: border-box;
     position: fixed;
+    background-color: #f2f2f2;
     bottom: 0;
     width: 100%;
+}
+
+.country {
+    color: rgba(0,0,0,.54);
+    padding: 15px 0px 15px 0px;
+    margin-left: 15px;
+}
+
+hr {
+    position: fixed;
+    margin: 0;
+    height: 1px;
+    background-color: #dadada;
+    border: none;
+    width: 100%;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px 15px 0px;
+}
+
+.foot a {
+    color: rgba(0,0,0,.54);
 }

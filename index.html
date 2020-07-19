@@ -8,12 +8,15 @@
 </head>
 <body>
     <div class="navbar">
-        <ul>
-            <li><a href="about.asp">About</a></li>
-            <li><a href="store.asp">Store</a></li>
-            <li><a href="gmail.asp">Gmail</a></li>
-            <li><a href="images.asp">Images</a></li>
-        </ul>
+        <div id="nav1">
+            <a href="">About</a>
+            <a href="">Store</a>
+        </div>
+        <div id="nav2">
+            <a href="">Gmail</a>
+            <a href="">Images</a>
+            <button id="signin"><strong>Sign in</strong></button>
+        </div>
     </div>
     <div id="main" class="content">
         <center>
@@ -25,16 +28,30 @@
                 <div class="searchbar">
                     <input class="sbar" type="text" name="search" maxlength="2048">
                 </div>
+                <div class="searchbuttons">
+                    <button class="sb">Google Search</button>
+                    <button class="sb"> I'm Feeling Lucky</button>
+                </div>
             </form>
         </div>
         </center>
     </div>
     <div id="footer">
-        <ul>
-            <li><a href="advertising.asp">Advertising</a></li>
-            <li><a href="business.asp">Business</a></li>
-            <li><a href="howsearchworks.asp">How Search Works</a></li>
-        </ul>
-    </div>
+        <div class="country">
+            Australia
+        </div>
+        <hr>
+        <div class="foot">
+            <div>
+                <a href="">Advertising</a>
+                <a href="">Business</a>
+                <a href="">How Search Works</a>
+            </div>
+            <div>
+                <a href="">Privacy</a>
+                <a href="">Terms</a>
+                <a href="">Settings</a>
+            </div>
+        </div>
 </body>
 </html>
